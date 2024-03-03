@@ -1,0 +1,5 @@
+{
+  "id": "dotnet",
+  "type": "wasm",
+  "url": "https://github.com/Phault/proto-dotnet-plugin/releases/download/v{version}/dotnet_plugin.wasm"
+}
