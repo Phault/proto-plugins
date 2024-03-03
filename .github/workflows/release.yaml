@@ -1,0 +1,25 @@
+name: Release
+
+permissions:
+  id-token: write
+  contents: read
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: moonrepo/setup-toolchain@v0
+        with:
+          auto-install: true
+      - name: Deploy
+        uses: denoland/deployctl@v1
+        with:
+          project: proto-plugins
+          entrypoint: service/main.ts
