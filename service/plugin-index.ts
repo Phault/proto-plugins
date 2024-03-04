@@ -1,8 +1,10 @@
 import { join } from "https://deno.land/std@0.218.2/path/mod.ts";
 
+export type PluginType = "toml" | "wasm";
+
 export type PluginInfo = {
   id: string;
-  type: "toml" | "wasm";
+  type: PluginType;
   url: string;
 };
 
