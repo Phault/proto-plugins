@@ -1,0 +1,5 @@
+{
+  "id": "python",
+  "url": "https://github.com/moonrepo/python-plugin/releases/download/v{version}/python_plugin.wasm",
+  "type": "wasm"
+}

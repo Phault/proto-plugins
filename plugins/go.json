@@ -1,0 +1,5 @@
+{
+  "id": "go",
+  "url": "https://github.com/moonrepo/go-plugin/releases/download/v{version}/go_plugin.wasm",
+  "type": "wasm"
+}

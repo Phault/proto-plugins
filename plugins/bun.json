@@ -1,0 +1,5 @@
+{
+  "id": "bun",
+  "url": "https://github.com/moonrepo/bun-plugin/releases/download/v{version}/bun_plugin.wasm",
+  "type": "wasm"
+}

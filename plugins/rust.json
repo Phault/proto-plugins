@@ -1,0 +1,5 @@
+{
+  "id": "rust",
+  "url": "https://github.com/moonrepo/rust-plugin/releases/download/v{version}/rust_plugin.wasm",
+  "type": "wasm"
+}

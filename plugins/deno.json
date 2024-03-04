@@ -1,0 +1,5 @@
+{
+  "id": "deno",
+  "url": "https://github.com/moonrepo/deno-plugin/releases/download/v{version}/deno_plugin.wasm",
+  "type": "wasm"
+}

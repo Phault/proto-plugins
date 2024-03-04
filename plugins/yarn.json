@@ -1,0 +1,5 @@
+{
+  "id": "yarn",
+  "url": "https://github.com/moonrepo/node-plugin/releases/download/v{version}/node_depman_plugin.wasm",
+  "type": "wasm"
+}
