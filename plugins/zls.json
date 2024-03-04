@@ -1,0 +1,5 @@
+{
+  "id": "zls",
+  "type": "wasm",
+  "url": "https://github.com/konomae/zls-plugin/releases/download/v{version}/zls_plugin.wasm"
+}

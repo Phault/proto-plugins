@@ -1,0 +1,5 @@
+{
+  "id": "zig",
+  "type": "wasm",
+  "url": "https://github.com/konomae/zig-plugin/releases/download/v{version}/zig_plugin.wasm"
+}
