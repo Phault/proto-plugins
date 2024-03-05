@@ -10,7 +10,7 @@ const wasmPluginPattern = new URLPattern({
 // would love to support a checksum for toml plugins, but need to figure out
 // what to do if the file location changes
 const tomlPluginPattern = new URLPattern({
-  pathname: `/${pluginIdPattern}`,
+  pathname: `/${pluginIdPattern}.toml`,
 });
 
 async function tryResolveTomlPluginUrl(url: URL) {
